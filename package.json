@@ -9,7 +9,7 @@
     "test:unit": "vitest run tests/unit",
     "test:api": "playwright test tests/api",
     "test:watch": "vitest",
-    "test:ui": "vitest run tests/ui",
+    "test:ui": "playwright test tests/ui",
     "start": "ts-node src/main.ts"
   },
   "repository": {
